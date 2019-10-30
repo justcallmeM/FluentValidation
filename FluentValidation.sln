@@ -3,7 +3,25 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29209.62
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DashboardUI", "DashboardUI\DashboardUI.csproj", "{276EB1C1-506F-4983-9607-16C4D6AB1C0C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModelLibrary", "ModelLibrary\ModelLibrary.csproj", "{26EEA079-A642-4C1F-9E98-537445005B81}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{276EB1C1-506F-4983-9607-16C4D6AB1C0C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{276EB1C1-506F-4983-9607-16C4D6AB1C0C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{276EB1C1-506F-4983-9607-16C4D6AB1C0C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{276EB1C1-506F-4983-9607-16C4D6AB1C0C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{26EEA079-A642-4C1F-9E98-537445005B81}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26EEA079-A642-4C1F-9E98-537445005B81}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26EEA079-A642-4C1F-9E98-537445005B81}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26EEA079-A642-4C1F-9E98-537445005B81}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
